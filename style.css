@@ -109,12 +109,8 @@ margin-right: 15px;
     font-weight: 600;
 }
 .contacts{
-    width: 50%; 
-    margin-left: 700px;
-    background-color: lightgrey;
-    display: inline;
-    
-    
+     display: block;
+     
 }
 .my-whatsapp, .my-facebook, {
     margin-right: 15px;
