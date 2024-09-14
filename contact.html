@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>contact page</title>
+   <link rel="stylesheet" href="style.css">
+  
+</head>
+ <body>
+    <div class="hero">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="#">Features</a></li>
+             <li><a href="about.html">About</a></li>
+            </ul>
+            <img src="images/user.png"class="user-pic" onclick="toggleMenu()">
+    
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="images/user.png">
+                        <h3>Victor Achilonu</h3>
+                    </div>
+                    <hr>
+    
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/profile.png">
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/setting.png">
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/help.png">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/logout.png">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                    
+                    
+                </div>
+                </div>
+    
+         </nav>
+    </div>
+  
+
+    <nav class="contacts">
+
+        <a href="https://wa.me/8169286994" >
+        <img src="Images/whatsapp.png"  class="my-whatsapp">
+        </a>
+
+        <a href="#" >
+        <img src="Images/twitter.png" alt="twitter" class="my-twitter">
+        </a>
+
+        <a href="#" >
+        <img src="Images/youtube.png" alt="youtube" class="my-youtube">
+        </a>
+
+        <a href="#" >
+        <img src="Images/facebook.png" alt="facebook" class="my-facebook">
+        </a>
+
+    </nav>
+
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+    
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+    </script>
+    
+</body>
+</html>
+
