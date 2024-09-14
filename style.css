@@ -111,8 +111,9 @@ margin-right: 15px;
 .contacts{
     width: 50%; 
     margin-left: 700px;
-    background-color: grey;
+    background-color: lightgrey;
     display: inline;
+    
     
 }
 .my-whatsapp, .my-facebook, {
